@@ -43,7 +43,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
 
-![Small Test Image](https://instagram.fmnl2-1.fna.fbcdn.net/t51.2885-15/s640x640/sh0.08/e35/13437309_1167174123346027_1743223026_n.jpg)
+![Small Test Image](https://thumbor.granitemedia.com/yorkshire-terriers-are-a-small-dog-breed/1R_uIooZXdhUbBWlxNJrX6Vai-M=/800x0/filters:quality(80)/granite-web-prod/ce/39/ce39903185b44964b9db839467e92260.jpg)
 
 Labore et dolore.
 
@@ -177,7 +177,7 @@ end
 
 Let’s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.
 
-> Good afternoon, gentlemen. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992\. My instructor was Mr. Langley, and he taught me to sing a song. If you’d like to hear it I can sing it for you. <cite>— [HAL 9000](http://en.wikipedia.org/wiki/HAL_9000)</cite>
+> Good afternoon, gentlemen. I am a HAL 9000 computer. I became operational at the H.A.L. plant in Urbana, Illinois on the 12th of January 1992\. My instructor was Mr. Langley, and he taught me to sing a song. If you’d like to hear it I can sing it for you. <cite>— [HAL 9000](http://en.wikipedia.org/wiki/HAL_9000){:target="_blank"}</cite>
 
 And here’s a bit of trailing text.
 
@@ -246,4 +246,4 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 It is awesome.
 
-<small>Source: Markdown code of this page is based on Ghost's [comprehensive style test](http://demo.ghost.io/style-test/)</small>
+<small>Source: Markdown code of this page is based on Ghost's [comprehensive style test](http://demo.ghost.io/style-test/){:target="_blank"}</small>
