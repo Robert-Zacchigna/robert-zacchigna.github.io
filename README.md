@@ -2,7 +2,7 @@
 
 ![Jekyll version](https://img.shields.io/badge/Jekyll-3.x-brightgreen.svg?style=flat-square)
 
-To use this site as a GitHub Page, use the [gh-pages_BlackDoc-Theme](https://github.com/Robert-Zacchigna/DSC-680_Portfolio/tree/gh-pages_BlackDoc-Theme)
+To use this site as a GitHub Page, use the [gh-pages_BlackDoc-Theme](https://github.com/Robert-Zacchigna/DSC-680_Portfolio/tree/gh-pages_BlackDoc-Theme) branch.
 
 BlackDoc is a two-column [Jekyll](http://jekyllrb.com) theme that's ideal for websites that require a master-detail layout for viewing of content. It's based on [Poole](http://getpoole.com), the Jekyll butler, and the [Hyde](http://hyde.getpoole.com) theme.
 
