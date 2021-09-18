@@ -178,6 +178,7 @@ tbody tr:nth-child(odd) th {
 .gist-meta {
   background-color: #222 !important;
 }
+
 /*
  * Sidebar
  *
@@ -192,6 +193,7 @@ tbody tr:nth-child(odd) th {
   background-color: #000;
   overflow: auto;
 }
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -247,6 +249,29 @@ a.sidebar-nav-item:focus {
   }
 }
 
+/* Nav-Bar Start
+ *
+ * Navigation Bar for the top of the page
+ */
+
+@media (min-width: 25em) {
+  .nav-resize {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 48em) {
+  .nav-resize {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 64em) {
+  .nav-resize {
+    font-size: 35px;
+  }
+}
+
 /* Container
  *
  * Align the contents of the site above the proper threshold with some margin-fu
@@ -254,8 +279,8 @@ a.sidebar-nav-item:focus {
  */
 
 .content {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 @media (min-width: 48em) {
