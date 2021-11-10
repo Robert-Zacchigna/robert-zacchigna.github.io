@@ -1,0 +1,24 @@
+.gha-footer {
+    margin-bottom: 13px;
+}
+.gha-gravatar-commit {
+    float: left;
+    margin-right: 4px;
+    padding: 2px 0;
+}
+.gha-push {
+    margin-top: -22px;
+}
+.gha-header {
+    width: calc(100% - 2px) !important;
+}
+.gha-gravatar {
+    margin-top: 3px !important;
+}
+.gha-user-info {
+    margin-top: -8.5px !important;
+    margin-left: 1px !important;
+}
+.octicon-mark-github {
+    margin-top: -8.5px !important;
+}

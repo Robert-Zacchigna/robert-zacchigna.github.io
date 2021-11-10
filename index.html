@@ -3,7 +3,8 @@ layout: default
 title: Home
 ---
 
-<link rel="stylesheet" href="/assets/github_feed/octicons.css">
+<link rel="stylesheet" href="/assets/github_feed/octicons.min.css">
+<link rel="stylesheet" href="/assets/github_feed/github-feed-fixes.css">
 <link rel="stylesheet" href="/assets/github_feed/github-activity.min.css">
 
 <script type="text/javascript" src="/assets/github_feed/mustache.min.js"></script>
@@ -15,7 +16,7 @@ title: Home
 <script type="text/javascript">
     GitHubActivity.feed({
         username: "Robert-Zacchigna",
-        selector: "#feed", limit: 5,
+        selector: "#feed", limit: 10,
     });
 </script>
 
