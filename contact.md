@@ -9,9 +9,8 @@ title: Contact
 
 ## Send an Email
 
-If you would like to get in contact with me directly, you can fill out the form below.
-
-I am usually pretty good at checking my email, so response wait times should not be too long.
+If you would like to get in contact with me directly, you can fill out the form below. I'm usually pretty good at checking 
+my email, so response wait times should not be too long.
 
 ### Contact Form
 
