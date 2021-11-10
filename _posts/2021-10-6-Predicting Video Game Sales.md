@@ -167,5 +167,5 @@ hardware, modeling would simply take too long than would be feasible.
 
 I would also recommend that using some kind of feature reduction method 
 ([PCA](https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c){:target="_blank"}, 
-[SelectKBest](https://www.datatechnotes.com/2021/02/seleckbest-feature-selection-example-in-python.html){:target="_blank"}), 
+[SelectKBest](https://www.datatechnotes.com/2021/02/seleckbest-feature-selection-example-in-python.html){:target="_blank"}, 
 etc..) could also help in reducing the number of features and the length of modeling time at the cost of a small loss in scoring.
