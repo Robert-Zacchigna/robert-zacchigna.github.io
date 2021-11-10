@@ -54,18 +54,31 @@
     #fs-frm [type="reset"],
     #fs-frm [type="text"],
     #fs-frm [type="email"] {
-    width: 100%;
+        width: 100%;
+  }
+}
+
+@media (min-width: 25em) {
+    #fs-frm [type="button"],
+    #fs-frm [type="submit"],
+    #fs-frm [type="reset"] {
+        width: 50%;
+  }
+}
+
+@media (min-width: 55em) {
+    #fs-frm [type="text"],
+    #fs-frm [type="email"],
+    #fs-frm [type="file"] {
+        width: 100%;
   }
 }
 
 @media (min-width: 55em) {
     #fs-frm [type="button"],
     #fs-frm [type="submit"],
-    #fs-frm [type="reset"],
-    #fs-frm [type="text"],
-    #fs-frm [type="email"],
-    #fs-frm [type="file"] {
-    width: 100%;
+    #fs-frm [type="reset"] {
+        width: 45%;
   }
 }
 
@@ -73,7 +86,8 @@
     #fs-frm [type="button"],
     #fs-frm [type="submit"],
     #fs-frm [type="reset"] {
-    width: 40%;
+        width: 30%;
+        margin-right: 35%;
   }
 }
 
@@ -81,7 +95,7 @@
     #fs-frm [type="text"],
     #fs-frm [type="email"],
     #fs-frm [type="file"] {
-    width: 65%;
+        width: 65%;
   }
 }
 
@@ -89,7 +103,8 @@
     #fs-frm [type="button"],
     #fs-frm [type="submit"],
     #fs-frm [type="reset"] {
-    width: 30%;
+        width: 25%;
+        margin-right: 45%;
   }
 }
 
@@ -97,7 +112,7 @@
     #fs-frm [type="text"],
     #fs-frm [type="email"],
     #fs-frm [type="file"] {
-    width: 55%;
+        width: 55%;
   }
 }
 
