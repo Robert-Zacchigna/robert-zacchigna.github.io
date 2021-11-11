@@ -19,22 +19,17 @@ This project compares the performance of several different classification models
 [Random Forest](https://en.wikipedia.org/wiki/Random_forest){:target="_blank"},
 [Decision Tree](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052){:target="_blank"}, and
 [XGBoost](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/){:target="_blank"}) 
-using [PCA](https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c){:target="_blank"} 
-feature reduction and [SMOTE](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/){:target="_blank"} 
-up-sampling (to balance the dataset) in order to create the best model possible for predicting which customers are going 
-to drop the banks credit card and leave for a competitor. For model scoring, the [Recall](https://en.wikipedia.org/wiki/Precision_and_recall){:target="_blank"}
-metric will be used to see which model performed the best with the data.
+using [Principal Component Analysis](https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c){:target="_blank"} 
+(PCA) feature reduction and [SMOTE](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/){:target="_blank"} 
+up-sampling (**S**ynthetic **M**inority **O**versampling **T**echnique, for balancing the dataset) in order to create the 
+best model possible for predicting which customers are going to drop the banks credit card and leave for a competitor. 
+For model scoring, the [Recall](https://en.wikipedia.org/wiki/Precision_and_recall){:target="_blank"} metric will be used 
+to see which model performed the best with the data.
 
-This notebook explores several different types of classification models 
-([Logistic Regression](https://towardsdatascience.com/logistic-regression-detailed-overview-46c4da4303bc){:target="_blank"},
-[Random Forest](https://en.wikipedia.org/wiki/Random_forest){:target="_blank"},
-[Decision Tree](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052){:target="_blank"}, and
-[XGBoost](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/){:target="_blank"}) 
-along with utilizing 
-[Principal Component Analysis](https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c){:target="_blank"} 
-(PCA) feature reduction and [SMOTE](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/){:target="_blank"}
-(**S**ynthetic **M**inority **O**versampling **T**echnique, for balancing the dataset) to create the best model possible 
-for predicting if a customer will drop a banks credit card (churn).
+This notebook explores several different types of classification models (see above) along with utilizing 
+[PCA](https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c){:target="_blank"} feature 
+reduction and [SMOTE](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/){:target="_blank"}
+(to balance the dataset) to create the best model possible for predicting if a customer will drop a banks credit card (churn).
 
 {% assign part = "" %}
 {% assign notebook_page = "Predicting Credit Card Customer Attrition (Churn).html" %}
@@ -140,13 +135,8 @@ After training all the models, `XGBoost` classifier is the model that came out o
 
 The best parameters for the `XGBoost` model was the following:
 
-<style>
-    .language-text {
-        max-width: 380px !important;
-    }
-</style>
-
-```text
+<div class="language-text highlighter-rouge" style="max-width: 380px !important;">
+<pre class="highlight">
 Best XG Boost Classifier Parameters
 ===================================
               booster: gbtree
@@ -158,7 +148,8 @@ Best XG Boost Classifier Parameters
            reg_lambda: 0.2
             subsample: 0.8
     use_label_encoder: False
-```
+</pre>
+</div>
 
 
 ## Confusion Matrix

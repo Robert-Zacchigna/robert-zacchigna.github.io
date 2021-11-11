@@ -62,13 +62,15 @@ Histograms of the numerical variables to see their overall distributions in the 
 
 ## Outliers
 
-```text
+<div class="language-text highlighter-rouge" style="max-width: 520px !important;">
+<pre class="highlight">
 University Name: Texas A&M University at Galveston
 Percentage of Faculty with PhD's: 103%
 
 University Name: Cazenovia College
 Graduation Rate: 118%
-```
+</pre>
+</div>
 
 `Texas A&M University at Galveston` lists a **faculty PhD** percentage of `103%` which, in the context of the variable measured, 
 is impossible because the variable is measuring the number of faculty with at least one PhD and thus if a person has 
@@ -123,13 +125,8 @@ Scatter plots of **public** and **private** `acceptance numbers` vs `enrollment 
 
 ## Correlation Matrix
 
-<style>
-    .language-text {
-        max-width: 515px !important;
-    }
-</style>
-
-```text
+<div class="language-text highlighter-rouge" style="max-width: 347px !important;">
+<pre class="highlight">
 |==============================|
 |	Accept vs. Enroll      |
 |==========|=========|=========|
@@ -139,7 +136,8 @@ Scatter plots of **public** and **private** `acceptance numbers` vs `enrollment 
 |----------|---------|---------|
 | Spearman | 0.93174 | 0.92828 |
 |==========|=========|=========|
-```
+</pre>
+</div>
 
 From the two scatter plots and correlation matrix above (detailing both [Pearson](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient){:target="_blank"}
 and [Spearman](https://en.wikipedia.org/wiki/Spearman%27s_rank_correlation_coefficient){:target="_blank"} correlation), 
@@ -159,9 +157,11 @@ be rejected or not.
 
 ### Difference in Means
 
-```text
+<div class="language-text highlighter-rouge" style="max-width: 363px !important;">
+<pre class="highlight">
 Difference in Means: 0.0 (P-value)
-```
+</pre>
+</div>
 
 The [Difference in Means](https://www.statisticshowto.com/mean-difference/){:target="_blank"} test resulted in a p-value 
 of zero (odds are It's not exactly zero but very small). Since the p-value is smaller than `0.05`, the null hypothesis 
@@ -170,9 +170,11 @@ can be rejected.
 
 ### Difference in Standard Deviations
 
-```text
+<div class="language-text highlighter-rouge" style="max-width: 507px !important;">
+<pre class="highlight">
 Difference in Standard Deviations: 0.99 (P-value)
-```
+</pre>
+</div>
 
 The [Difference in Standard Deviations](https://www.mathsisfun.com/data/standard-deviation-formulas.html){:target="_blank"}
 test resulted in a p-value of `0.99`. Since this p-value way greater than `0.05`, the null hypothesis cannot be rejected. 
@@ -182,12 +184,14 @@ standard deviation will be much larger and thus skewing the results.
 
 ### Chi-Squares
 
-```text
+<div class="language-text highlighter-rouge" style="max-width: 231px !important;">
+<pre class="highlight">
 Chi-Squares:
  * P-value:  0.002
  *  Actual: 27.46185
  *  Ts Max: 32.67935
-```
+</pre>
+</div>
 
 The [Chi-Squares](https://www.statisticshowto.com/probability-and-statistics/chi-square/){:target="_blank"} test resulted 
 in a p-value of `0.002` and is much lower than `0.05` (as a result we can reject the null hypothesis).
@@ -195,9 +199,11 @@ in a p-value of `0.002` and is much lower than `0.05` (as a result we can reject
 
 ### False Negative Rate
 
-```text
+<div class="language-text highlighter-rouge" style="max-width: 270px !important;">
+<pre class="highlight">
 False Negative Rate: 0.0
-```
+</pre>
+</div>
 
 The [False Negative Rate](https://en.wikipedia.org/wiki/False_positives_and_false_negatives){:target="_blank"} resulted 
 in a value of `0.0` (odds are It's not exactly zero but very small). Which is a good thing because that means that the 
