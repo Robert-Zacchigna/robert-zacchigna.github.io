@@ -312,11 +312,19 @@ nav .active {
   .nav-resize {
     font-size: 21px;
   }
+  .nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media (min-width: 55em) {
   .nav-resize {
-    font-size: 25px;
+    font-size: 21px;
+  }
+  .nav-item {
+    padding-left: 7px;
+    padding-right: 7px;
   }
 }
 

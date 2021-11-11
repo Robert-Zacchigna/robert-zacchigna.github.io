@@ -18,13 +18,22 @@ $(function(){
         $('.dropdown-btn').not(this).removeClass('active-btn');
         $(this).toggleClass('active-btn');
 
-        var div_list = document.getElementsByClassName('sidebar-sticky')[0].getElementsByTagName('div');
+        var div_list = [].slice.call(document.getElementsByClassName('sidebar-sticky')[0].getElementsByTagName('div')).slice(1);
+        var btn_list = [].slice.call(document.getElementsByClassName("dropdown-btn"));
 
         for (var i = 0; i < div_list.length; i++) {
-            if (this.id === div_list[i].id) {
+            if (this.id === div_list[i].id && btn_list[i].id === this.id) {
                 $('.dropdown-year').not(div_list[i]).removeClass('active-year');
                 $(div_list[i]).toggleClass('active-year');
+
+                class_list = [].slice.call(btn_list[i].classList)
+
+                if (class_list.includes("active-btn")) {
+                    btn_list[i].innerHTML = btn_list[i].id + " ▲";
+                }
+                else { btn_list[i].innerHTML = btn_list[i].id + " ▼"; }
             }
+            else { btn_list[i].innerHTML = btn_list[i].id + " ▼"; }
         }
     });
 });
