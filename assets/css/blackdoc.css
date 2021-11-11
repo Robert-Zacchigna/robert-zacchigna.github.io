@@ -38,7 +38,7 @@ html {
 }
 
 body {
-  max-width: 90em;
+  max-width: 80em;
   margin: 0 auto !important;
   float: none !important;
 
@@ -215,7 +215,6 @@ tbody tr:nth-child(odd) th {
   .sidebar {
     position: fixed;
     top: 0;
-    left: 0;
     bottom: 0;
     width: 18rem;
     text-align: left;
