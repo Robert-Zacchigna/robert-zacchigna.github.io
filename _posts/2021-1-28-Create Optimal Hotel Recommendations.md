@@ -66,13 +66,8 @@ The best model ended up being a `Random Forest` Classifier with an accuracy scor
 
 With the following parameters:
 
-<style>
-    .language-text {
-        max-width: 424px !important;
-    }
-</style>
-
-```text
+<div class="language-text highlighter-rouge" style="max-width: 424px !important;">
+<pre class="highlight">
 Best Random Forest Classifier Parameters
 ========================================
          class_weight: balanced
@@ -82,10 +77,11 @@ Best Random Forest Classifier Parameters
      min_samples_leaf: 3
     min_samples_split: 3
          n_estimators: 200
-```
+</pre>
+</div>
 
 After all of my analysis, my modeling results were unfortunately not very good, I ended up with a final accuracy score 
-of `0.2666` after training on the entire dataset. The score would most likely improve with a larger sample size and a differently tuned model (and a stronger 
-computer to train the model). I had originally decided to use [XGBoost](https://xgboost.readthedocs.io/en/latest/index.html){:target="_blank"}
-but the model training was taking far too long than what was feasible for me (even with the small sample size) and thus 
-was forced to change to a different model.
+of `0.2666` after training on the entire dataset. The score would most likely improve with a larger sample size and a 
+differently tuned model (and a stronger computer to train the model). I had originally decided to use 
+[XGBoost](https://xgboost.readthedocs.io/en/latest/index.html){:target="_blank"}but the model training was taking far 
+too long than what was feasible for me (even with the small sample size) and thus was forced to change to a different model.

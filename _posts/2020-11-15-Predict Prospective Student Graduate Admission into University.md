@@ -134,25 +134,13 @@ of `0.7801` and its PCA counterpart had a score of `0.7385`.
 
 <img style="margin: 0;" src="{{ "/assets/images/Predict Prospective Student Graduate Admission into University/Adj R^2 Score Model Comparison.png" | prepend: site.baseurl }}" title="Adj R^2 Score Model Comparison.png">
 
-The table above shows that in all model types, except one, PCA feature reduction did not improve the performance of the 
-model. The only exception being decision tree regression, which did improve slightly (`~0.0074`) over the decision 
-tree model without PCA reduction. All the models (except decision tree) had a notable decrease in performance with PCA 
-reductions, with a performance drop ranging between `~0.0125` and `~0.042` across the three other models.
-
-Thus, it appears that my [prediction](#feature-reduction) from before was correct, PCA feature reduction did not really provide any meaningful 
-improvements to the performance results of the models.
 
 ## Best Parameters
 
 The best parameters for the `random forest` model was the following:
 
-<style>
-    .language-text {
-        max-width: 424px !important;
-    }
-</style>
-
-```text
+<div class="language-text highlighter-rouge" style="max-width: 424px !important;">
+<pre class="highlight">
 Best Random Forest Regression Parameters
 ========================================
                max_depth: 6
@@ -160,4 +148,13 @@ Best Random Forest Regression Parameters
         min_samples_leaf: 1
        min_samples_split: 5
             n_estimators: 1000
-```
+</pre>
+</div>
+
+The table above shows that in all model types, except one, PCA feature reduction did not improve the performance of the 
+model. The only exception being decision tree regression, which did improve slightly (`~0.0074`) over the decision 
+tree model without PCA reduction. All the models (except decision tree) had a notable decrease in performance with PCA 
+reductions, with a performance drop ranging between `~0.0125` and `~0.042` across the three other models.
+
+Thus, it appears that my [prediction](#feature-reduction) from before was correct, PCA feature reduction did not really provide any meaningful 
+improvements to the performance results of the models.

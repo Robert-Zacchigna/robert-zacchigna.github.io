@@ -74,34 +74,32 @@ Below is what the full pipeline looks like:
 
 Here are what the best parameters ended up being for the model:
 
-<style>
-    .language-text {
-        max-width: 434px !important;
-    }
-</style>
-
-```text
+<div class="language-text highlighter-rouge" style="max-width: 327px !important;">
+<pre class="highlight">
 Best Classification Parameters
 ==============================
       activation: logistic
 	   alpha: 0.0001
    learning_rate: constant
 	  solver: adam
-```
+</pre>
+</div>
 
 
 ### Classification Metric Scores
 
 The classification metric scores of the model after predicting on the test set:
 
-```text
+<div class="language-text highlighter-rouge" style="max-width: 367px !important;">
+<pre class="highlight">
 Model Classification Metric Scores
 ==================================
 	 Accuracy: 75.00%
 	Precision: 69.47%
 	   Recall: 75.00%
 	       F1: 70.75%
-```
+</pre>
+</div>
 
 Ended up with an accuracy score of `75%`, which isn't too bad. With some finer tuning and longer training, it could improve
 greatly.
@@ -139,14 +137,16 @@ The best params for the model ended up being: `batch size of 10`, and running fo
 
 The classification metric scores of the model after predicting on the test set:
 
-```text
+<div class="language-text highlighter-rouge" style="max-width: 280px !important;">
+<pre class="highlight">
 Model Keras Metric Scores
 =========================
      Accuracy: 66.44%
     Precision: 58.97%
        Recall: 66.44%
        F1: 61.92%
-```
+</pre>
+</div>
 
 Ended up with an accuracy score of `~66%`, which quite a bit worse than the Scikit model (`~9%` [drop](#classification-metric-scores)). 
 Finer tuning and longer training will definitely need to be done in order to improve this model.
@@ -182,12 +182,14 @@ The built keras model has the following layers and parameters:
 
 The model was trained for only 2 epochs, which took about 1min to complete, below are the scores:
 
-```text
+<div class="language-text highlighter-rouge" style="max-width: 434px !important;">
+<pre class="highlight">
   Keras Image Classification Accuracies
 =========================================
 Epoch 1: Accuracy = 81.83%, Loss = 58.62%
 Epoch 2: Accuracy = 94.24%, Loss = 19.77%
-```
+</pre>
+</div>
 
 The model ended with an accuracy score of `~94%`, which is excellent considering it only ran for 2 epochs. This is a very
 popular dataset to use for image classification and its usually used as a tutorial for people just starting out with 

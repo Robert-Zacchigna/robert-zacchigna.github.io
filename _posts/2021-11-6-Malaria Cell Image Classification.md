@@ -78,22 +78,18 @@ The classification report just gives and overview of how the model performed wit
 [precision, recall](https://en.wikipedia.org/wiki/Precision_and_recall){:target="_blank"} and 
 [f1-score](https://en.wikipedia.org/wiki/F-score){:target="_blank"}.
 
-<style>
-    .language-text {
-        max-width: 460px; !important
-    }
-</style>
+<div class="language-text highlighter-rouge" style="max-width: 460px !important;">
+<pre class="highlight">
+<code>              precision   recall   f1-score
 
-```text
-              precision   recall   f1-score
+  Uninfected       0.94     0.97       0.95
+ Parasitized       0.97     0.94       0.95
 
- Parasitized       0.98     0.91       0.94
-  Uninfected       0.91     0.98       0.94
-
-    accuracy                           0.94
-   macro avg       0.94     0.94       0.94
-weighted avg       0.94     0.94       0.94
-```
+    accuracy                           0.95
+   macro avg       0.95     0.95       0.95
+weighted avg       0.95     0.95       0.95</code>
+</pre>
+</div>
 
 
 ## Model Predictions and Conclusion
@@ -176,7 +172,8 @@ The classification report just gives and overview of how the model performed wit
 [precision, recall](https://en.wikipedia.org/wiki/Precision_and_recall){:target="_blank"} and 
 [f1-score](https://en.wikipedia.org/wiki/F-score){:target="_blank"}.
 
-```text
+<div class="language-text highlighter-rouge" style="max-width: 460px !important;">
+<pre class="highlight">
               precision   recall   f1-score
 
   Uninfected       0.94     0.97       0.95
@@ -185,7 +182,8 @@ The classification report just gives and overview of how the model performed wit
     accuracy                           0.95
    macro avg       0.95     0.95       0.95
 weighted avg       0.95     0.95       0.95
-```
+</pre>
+</div>
 
 
 ## Model Predictions and Conclusion
@@ -212,7 +210,8 @@ time you are willing to spend on it.
 
 * If you just want to get to the modeling with minimal fuss/building and have most everything built-in for you, I would 
 recommend using [FastAI](https://docs.fast.ai/){:target="_blank"}.
-* If you want to build everything yourself and have much finer control over your modeling, I would recommend using [Tensorflow/Keras](https://keras.io/about/){:target="_blank"}.
+* If you want to build everything yourself and have much finer control over your modeling, I would recommend using 
+[Tensorflow/Keras](https://keras.io/about/){:target="_blank"}.
 
-In either case, I can't recommend enough how much better your modeling life will be with a better GPU and [CUDA](https://developer.nvidia.com/cuda-toolkit){:target="_blank"}, 
-especially so if you are doing image processing.
+In either case, I can't recommend enough how much better your modeling life will be with a better GPU and 
+[CUDA](https://developer.nvidia.com/cuda-toolkit){:target="_blank"}, especially so if you are doing image processing.

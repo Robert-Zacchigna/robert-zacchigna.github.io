@@ -34,16 +34,16 @@ that could help university administrators predict what the graduation rate might
 
 # Methodology
 
-A series of linear regression models were created with significantly correlated variables to `Grad.Rate` and compared together 
-to see which variables made the best he best model. From there, several other models were created (random forest and 
-k-nearest neighbors) and compared to find the best one possible for predicting the graduation rate.
+A series of linear regression models were created with significantly correlated variables to `Grad.Rate` and compared 
+together to see which variables made the best he best model. From there, several other models were created (random forest 
+and k-nearest neighbors) and compared to find the best one possible for predicting the graduation rate.
 
 
 ## Correlation Matrix 
 
-A correlation matrix was created to find which variables were highly correlated with `Grad.Rate`. From the matrix below, we 
-can see that the variable with the highest correlation with `Grad.Rate` is `Outstate at 0.54`and `perc.alumni` coming in 
-close with `0.48`. Unfortunately, neither of these variables have a particularly good correlation with `Grad.Rate` and 
+A correlation matrix was created to find which variables were highly correlated with `Grad.Rate`. From the matrix below, 
+we can see that the variable with the highest correlation with `Grad.Rate` is `Outstate at 0.54`and `perc.alumni` coming 
+in close with `0.48`. Unfortunately, neither of these variables have a particularly good correlation with `Grad.Rate` and 
 the rest of the variables fair far worse.
 
 <div style="max-width: 900px;">
@@ -126,8 +126,10 @@ variable structure in models [1](#model-1) and [4](#model-4).
 
 <p></p>
 
-Overall, the model with the lowest RMSE and the highest R^2 is the 1st randomforest model (clean_rf1). The randomforest 
-models faired about the same (just slightly better) as the linear models and curiously, the knn models faired far worse 
+Overall, the model with the lowest [RMSE](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/rmse-root-mean-square-error/){:target="_blank"}
+(**R**oot **M**ean **S**quare **E**rror) and the highest [R^2](https://www.statisticshowto.com/probability-and-statistics/coefficient-of-determination-r-squared/){:target="_blank"}
+(also known as the *Coefficient of Determination*) is the 1st random forest model (clean_rf1). The random forest 
+models faired about the same (just slightly better) as the linear models and curiously, the knn models fared far worse 
 than both the linear and randomForest models. However, the R^2 is still very low and the RMSE means that model is only 
 able to predict the Grad Rate of a University from within about the RMSE margin. In terms of a graduation rate, that is 
 quite a large margin and as a result, this should probably not be used to predict a universities' graduation rate.

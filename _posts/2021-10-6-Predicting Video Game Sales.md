@@ -145,25 +145,21 @@ score of `~0.9999`. However, all of the models performed very well and they ende
 
 With the following parameters:
 
-<style>
-    .language-text {
-        max-width: 357px !important;
-    }
-</style>
-
-```text
+<div class="language-text highlighter-rouge" style="max-width: 357px !important;">
+<pre class="highlight">
 Best Linear Regression Parameters
 =================================
       fit_intercept: True
           normalize: True
-```
+</pre>
+</div>
 
 # Conclusion
 
-Based on the analysis and experimentation, I am confident that the selected final model is the best performing 
-model for utilization in making predictions on future video game sales. I would say that the model could be improved by also 
-utilizing the other columns that needed to be encoded (platform and publisher) but due to the limitations of my current 
-hardware, modeling would simply take too long than would be feasible.
+Based on the analysis and experimentation, I am confident that the selected final model is the best performing model for 
+utilization in making predictions on future video game sales. I would say that the model could be improved by also utilizing 
+the other columns that needed to be encoded (platform and publisher) but due to the limitations of my current hardware, 
+modeling would simply take too long than would be feasible.
 
 I would also recommend that using some kind of feature reduction method 
 ([PCA](https://towardsdatascience.com/a-one-stop-shop-for-principal-component-analysis-5582fb7e0a9c){:target="_blank"}, 
