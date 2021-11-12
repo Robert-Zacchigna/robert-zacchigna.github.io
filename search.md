@@ -3,6 +3,15 @@ layout: page
 title: Search Posts
 ---
 
+<!-- Shrink header size to prevent counter from going to a new line, phones only -->
+<style>
+@media (max-width: 358px) {
+    h1 {
+        font-size: 31px;
+    }
+}
+</style>
+
 <!-- HTML elements for search -->
 <div id="fs-frm" style="padding-top: 1em;">
     <center>

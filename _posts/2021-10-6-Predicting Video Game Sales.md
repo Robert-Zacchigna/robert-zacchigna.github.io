@@ -116,7 +116,7 @@ process: `Rank`, `Name`, `Year`, `Publisher`, and `Platform`.
 <img style="margin: 0;" src="{{ "/assets/images/Predicting Video Game Sales/Final Annotated Correlation Matrix with OneHotEncoded Genre Columns.png" | prepend: site.baseurl }}" title="Final Correlation Matrix with OneHotEncoded Genre Columns">
 
 > **NOTE:** While all of the genre's have very low correlations with the sales regions, the `Role-Playing` genre has a 
-> noticeably higher correlation with `JP (Japans) Sales` (0.18) than other genre's and regions.
+> noticeably higher correlation with `JP (Japan) Sales` (0.18) than other genre's and regions.
 
 
 ## Tuning Model Hyperparameters

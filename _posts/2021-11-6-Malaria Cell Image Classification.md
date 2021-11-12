@@ -80,14 +80,14 @@ The classification report just gives and overview of how the model performed wit
 
 <div class="language-text highlighter-rouge" style="max-width: 460px !important;">
 <pre class="highlight">
-<code>              precision   recall   f1-score
+              precision   recall   f1-score
 
   Uninfected       0.94     0.97       0.95
  Parasitized       0.97     0.94       0.95
 
     accuracy                           0.95
    macro avg       0.95     0.95       0.95
-weighted avg       0.95     0.95       0.95</code>
+weighted avg       0.95     0.95       0.95
 </pre>
 </div>
 
