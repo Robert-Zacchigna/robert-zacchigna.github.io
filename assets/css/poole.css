@@ -113,6 +113,9 @@ strong {
   color: #303030;
 }
 
+ul {
+    padding-left: 1em;
+}
 
 /* Lists */
 ul, ol, dl {

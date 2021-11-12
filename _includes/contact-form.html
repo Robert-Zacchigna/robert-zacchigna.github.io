@@ -1,3 +1,14 @@
+<script>
+  // Clear contact form inputs on page refresh
+
+  $(window).bind('load', function(event) {
+    var contact_inputs = [].slice.call(document.getElementsByTagName("input")).slice(0, 4);
+
+    contact_inputs.forEach(function(item) { item.value = ""; });
+    document.getElementById('message').value = "";
+  });
+</script>
+
 <div id="contact-form">
   <form id="fs-frm" accept-charset="utf-8" action="https://getform.io/f/80c7ecde-4257-4dde-97d9-ff901b45a513" enctype="multipart/form-data" method="post">
     <fieldset>
