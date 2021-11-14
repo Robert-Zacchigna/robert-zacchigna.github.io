@@ -5,6 +5,10 @@ tags: Jupyter Notebook, Python, Pandas, College/University, ThinkStats2
 category: Statistical Analysis, Data Analysis, Regression
 summary: Explores the relationship between public and private universities' graduation rates to see if a university being 
          Private or Public has an effect on its graduation rate and what factors specifically affect those rates.
+git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
+specific_git_link: 
+has_notebook: yes
+notebooks: Public and Private Graduation Rates Analysis (2019 U.S. College Data).html
 ---
 
 # Overview

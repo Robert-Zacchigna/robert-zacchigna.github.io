@@ -3,7 +3,12 @@ layout: post
 title: Malaria Cell Image Classification
 tags: Jupyter Notebook, Python, Pandas, FastAI, Malaria, Cells, Images, CNN, Tensorflow, Keras
 category: Machine Learning, ML, Classification, Neural Network
-summary: Creating and comparing two different (FastAI and Tensorflow/Keras) image classification models for identifying if a cell is infected or uninfected with malaria.
+summary: Creating and comparing two different (FastAI and Tensorflow/Keras) image classification models for identifying 
+         if a cell is infected or uninfected with malaria.
+git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
+specific_git_link: 
+has_notebook: yes
+notebooks: Malaria Cell Image Classification.html
 ---
 
 # Overview

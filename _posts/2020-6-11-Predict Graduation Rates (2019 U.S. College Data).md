@@ -4,6 +4,10 @@ title: Predict Graduation Rates (2019 U.S. College Data)
 tags: Jupyter Notebook, R, ggplot, College/University, Models
 category: Machine Learning, ML, Regression
 summary: Explores how various university factors (Economic, Academic, Enrollment, Faculty, etc...) can predict a university's student graduation rate.
+git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
+specific_git_link: 
+has_notebook: yes
+notebooks: Predict Graduation Rates (2019 U.S. College Data).html
 ---
 
 # Overview

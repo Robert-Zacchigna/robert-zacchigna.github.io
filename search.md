@@ -7,7 +7,7 @@ title: Search Posts
 <style>
 @media (max-width: 360px) {
     h1 {
-        font-size: 29px;
+        font-size: 30px;
     }
 }
 </style>

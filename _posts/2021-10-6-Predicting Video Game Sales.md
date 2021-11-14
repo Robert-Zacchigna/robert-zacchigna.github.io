@@ -3,10 +3,13 @@ layout: post
 title: Predicting Video Game Sales
 tags: Jupyter Notebook, Python, Pandas, Profiling, Plotly, Models, Video Games
 category: Machine Learning, ML, Regression
-summary: This examines video game sales by region, with information about the type of video game being sold, in order to create a model to predict the expected sales performance.
+summary: This examines video game sales by region, with information about the type of video game being sold, in order to 
+         create a model to predict the expected sales performance.
+git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
+specific_git_link: 
+has_notebook: yes
+notebooks: Predicting Video Game Sales.html
 ---
-
-
 
 # Overview
 

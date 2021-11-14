@@ -4,6 +4,10 @@ title: Predict Prospective Student Graduate Admission into University
 tags: Jupyter Notebook, Pandas, Profiling, Python, College/University, Models, PCA, Hyperparameter
 category: Machine Learning, ML, Regression
 summary: Attempts to predict the chance of a prospective student being admitted into a university's graduate program.
+git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
+specific_git_link: 
+has_notebook: yes
+notebooks: Predict Prospective Student Graduate Admission into University.html
 ---
 
 # Overview
