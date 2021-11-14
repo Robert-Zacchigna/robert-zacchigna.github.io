@@ -6,7 +6,7 @@ remote_theme:     Robert-Zacchigna/BlackDoc
 # Setup
 title:            Robert Zacchigna's Project Portfolio
 tagline:          Hire Me
-description:      "Posts are organized by year, click on the dropdowns to see all of the posts for that year with the most recent post at the top."
+description:      "Posts are organized by year (earliest first), click on the dropdowns to see all of the posts for that year with the most recent post at the top."
 github_url:       https://github.com/Robert-Zacchigna/Portfolio
 gh_page_url:	  https://robert-zacchigna.github.io/Portfolio
 permalink:        /:year/:month/:day/:title.html
