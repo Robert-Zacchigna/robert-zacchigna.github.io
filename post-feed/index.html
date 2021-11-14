@@ -60,16 +60,16 @@ title: Post-Feed
   <div class="pagination" style="pointer-events: auto;">
 
     {% if paginator.next_page %}
-      <b><a class="pagination-item older page-older" href="{{ site.baseurl | append: '/'}}assets/post-feed/page-{{paginator.next_page}}">Older Posts (Page-{{paginator.next_page}})</a></b>
+      <b><a class="pagination-item older page-older" href="{{ site.baseurl | append: '/'}}post-feed/page-{{paginator.next_page}}">Older Posts (Page-{{paginator.next_page}})</a></b>
     {% else %}
       <b><span class="pagination-item older page-older">Older Posts</span></b>
     {% endif %}
 
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
-        <b><a class="pagination-item newer page-newer" href="{{ site.baseurl | append: '/'}}assets/post-feed/index.html">Newer Posts (Page-1)</a></b>
+        <b><a class="pagination-item newer page-newer" href="{{ site.baseurl | append: '/'}}post-feed/index.html">Newer Posts (Page-1)</a></b>
       {% else %}
-        <b><a class="pagination-item newer page-newer" href="{{ site.baseurl | append: '/'}}assets/post-feed/page-{{paginator.previous_page}}">Newer Posts (Page-{{paginator.previous_page}})</a></b>
+        <b><a class="pagination-item newer page-newer" href="{{ site.baseurl | append: '/'}}post-feed/page-{{paginator.previous_page}}">Newer Posts (Page-{{paginator.previous_page}})</a></b>
       {% endif %}
     {% else %}
       <b><span class="pagination-item newer page-newer">Newer Posts</span></b>
