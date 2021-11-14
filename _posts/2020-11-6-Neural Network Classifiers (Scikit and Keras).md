@@ -4,6 +4,10 @@ title: Neural Network Classifiers (Scikit and Keras)
 tags: Jupyter Notebook, Python, Pandas, Images, Tensorflow, Keras, Scikit
 category: Machine Learning, ML, Classification, Neural Network
 summary: Creating several neural network classification models, using Scikit and Keras, to categorize text comments and identify images.
+git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
+specific_git_link: 
+has_notebook: yes
+notebooks: Neural Network Classifiers (Scikit and Keras).html
 ---
 
 # Overview

@@ -4,9 +4,11 @@ title: Predicting Credit Card Customer Attrition (Churn)
 tags: Jupyter Notebook, Pandas, Python, Models, Plotly, PCA, SMOTE
 category: Machine Learning, ML, Classification
 summary: Explores a customer churn dataset that aims to create a model that could be used to predict when customers might drop a banks credit card (churn).
+git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
+specific_git_link: 
+has_notebook: yes
+notebooks: Predicting Credit Card Customer Attrition (Churn).html
 ---
-
-
 
 # Overview
 

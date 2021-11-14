@@ -4,7 +4,16 @@ title: Project Title Here (Sample)
 tags: These, are, post-tags
 category: These are, post-categories
 summary: This is a sample post, I hope you like it.
+git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
+specific_git_link: 
+has_notebook: yes
+notebooks: Notebook1, Notebook2
 ---
+
+# Overview
+
+Project Overview...
+
 
 Info about the jupyter notebook...
 
@@ -14,6 +23,3 @@ Info about the jupyter notebook...
 
 {% include view-notebook.html html=content %}
 
-# Overview
-
-Other Project Content here...

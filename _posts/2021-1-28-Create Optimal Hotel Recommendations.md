@@ -4,6 +4,10 @@ title: Create Optimal Hotel Recommendations
 tags: Jupyter Notebook, Python, Pandas, Profiling, Hotel, Expedia, Models, PCA, Hyperparameter
 category: Machine Learning, ML, Classification
 summary: Analyzes Expedia customer information with the objective of creating a model to optimize user’s hotel recommendations.
+git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
+specific_git_link: 
+has_notebook: yes
+notebooks: Create Optimal Hotel Recommendations.html
 ---
 
 # Overview

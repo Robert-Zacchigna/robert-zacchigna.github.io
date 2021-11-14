@@ -4,6 +4,10 @@ title: Analysis of World Happiness Reports (2015-2019)
 tags: Jupyter Notebook, Python, Pandas, Happiness Rank, Maps, Graphs
 category: Data Analysis, Geographic Plotting
 summary: Analysis of World Happiness Reports from 2015-2019 to see what trends there might be from countries all over the world.
+git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
+specific_git_link: 
+has_notebook: yes
+notebooks: Analysis of World Happiness Reports (2015-2019).html
 ---
 
 # Overview

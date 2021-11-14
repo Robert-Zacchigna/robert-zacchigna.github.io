@@ -4,6 +4,11 @@ title: Air Pollution Analysis of Seoul (Districts), South Korea
 tags: Jupyter Notebook, Python, Pandas, SQLite, Database, Air Pollution, South Korea, AQI
 category: Data Analysis, Data Scraping
 summary: Air pollution analysis (of the districts in Seoul, South Korea) of AQI data from a collection of several different data sources.
+git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
+specific_git_link: https://github.com/Robert-Zacchigna/Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea
+has_notebook: yes
+notebooks: Part 1 - Parse and Reformat South Korean Air Pollution Data (CSV).html, Part 2 - Parse and Reformat South Korean Air Pollution Data (Website).html,
+           Part 3 - Parse and Reformat South Korean Air Pollution Data (API).html, Part 4 - Merging & Querying All South Korean Air Pollution Data.html
 ---
 
 # Overview

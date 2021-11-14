@@ -1,0 +1,6 @@
+<div>
+    <ins><p><strong>{{ notebook_page | remove_first: ".html" }}:</strong></p></ins>
+
+    <b><a class="btn btn-success" title="Notebook - {{ notebook_page | remove_first: ".html" }}" href="{{ site.baseurl }}assets/notebooks/{{ notebook_page }}" target="_blank">View Notebook</a></b>
+    <b><a class="btn btn-success" title="GitHub - {{ notebook_page | remove_first: ".html" }}" href="{{ github_notebook | remove_first: ".html" }}" target="_blank">GitHub</a></b>
+</div>
