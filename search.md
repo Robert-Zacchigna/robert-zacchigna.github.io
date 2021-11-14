@@ -5,9 +5,9 @@ title: Search Posts
 
 <!-- Shrink header size to prevent counter from going to a new line, phones only -->
 <style>
-@media (max-width: 360px) {
+@media (max-width: 359px) {
     h1 {
-        font-size: 29px;
+        font-size: 30px;
     }
 }
 </style>
