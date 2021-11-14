@@ -21,8 +21,16 @@ author:
   url:            https://github.com/Robert-Zacchigna/
 
 paginate:         5
-paginate_path:    '/assets/post-feed/page-:num/'
+paginate_path:    '/post-feed/page-:num/'
                   # Or '/my-jekyll-site/page:num' if you want to move your index pages
+
+# Reading Files
+include:
+  - _pages
+  - post-feed
+exlude:
+  - LICENSE.md
+  - README.md
 
 plugins:
   - jekyll-feed
