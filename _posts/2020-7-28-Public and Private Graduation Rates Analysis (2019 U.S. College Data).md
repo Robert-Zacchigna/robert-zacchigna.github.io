@@ -9,6 +9,7 @@ git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
 specific_git_link: 
 has_notebook: yes
 notebooks: Public and Private Graduation Rates Analysis (2019 U.S. College Data).html
+project_download_size: 957 KB
 ---
 
 # Overview
@@ -32,6 +33,8 @@ an effect on its `graduation rate` and what other factors might contribute to it
 {% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Public%20and%20Private%20Graduation%20Rates%20Analysis%20(2019%20College%20Data)" %}
 
 {% include view-notebook.html html=content %}
+
+{% include view-notebook-buttons.html html=content %}
 
 
 # Question

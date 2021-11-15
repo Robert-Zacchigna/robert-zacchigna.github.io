@@ -8,6 +8,7 @@ git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
 specific_git_link: 
 has_notebook: yes
 notebooks: Predict Prospective Student Graduate Admission into University.html
+project_download_size: 8.78 MB
 ---
 
 # Overview
@@ -36,6 +37,8 @@ to see if they can improve modeling time and/or results.
 {% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predict%20Prospective%20Student%20Graduate%20Admission%20into%20University" %}
 
 {% include view-notebook.html html=content %}
+
+{% include view-notebook-buttons.html html=content %}
 
 
 # Methodology

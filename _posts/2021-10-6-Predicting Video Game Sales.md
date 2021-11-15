@@ -9,6 +9,7 @@ git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
 specific_git_link: 
 has_notebook: yes
 notebooks: Predicting Video Game Sales.html
+project_download_size: 5.26 MB
 ---
 
 # Overview
@@ -34,6 +35,8 @@ that can predict the expected sales performance of a video game.
 {% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predicting%20Video%20Game%20Sales" %}
 
 {% include view-notebook.html html=content %}
+
+{% include view-notebook-buttons.html html=content %}
 
 
 # Methodology

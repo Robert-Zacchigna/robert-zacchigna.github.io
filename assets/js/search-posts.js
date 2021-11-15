@@ -8,7 +8,7 @@ window.simpleJekyllSearch = new SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     json: '/search.json', // Manually set full website path of json file
-    searchResultTemplate: '<li><a href="{url}">{title}</a><p><strong>Summary:</strong> {summary} <br> <strong>Posted:</strong> {date} <br> <strong>Tag(s):</strong> {tags} <br> <strong>Categories:</strong> {category}</p></li>',
+    searchResultTemplate: '<li><a href="{url}">{title}</a><p><strong>Summary:</strong> {summary} <br> <strong>Date:</strong> {date} <br> <strong>Tag(s):</strong> {tags} <br> <strong>Categories:</strong> {category} <br> <strong>Download Project:</strong> <a href="https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/{title}.zip">{download_size} - Zip Archive</a></p></li>',
     noResultsText: '<strong>No Results Found</strong>',
     limit: 10,
     fuzzy: false

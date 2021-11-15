@@ -8,6 +8,7 @@ git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
 specific_git_link: 
 has_notebook: yes
 notebooks: Notebook1, Notebook2
+project_download_size: 69.69 MB
 ---
 
 # Overview
@@ -22,4 +23,6 @@ Info about the jupyter notebook...
 {% assign github_notebook = "" %}
 
 {% include view-notebook.html html=content %}
+
+{% include view-notebook-buttons.html html=content %}
 

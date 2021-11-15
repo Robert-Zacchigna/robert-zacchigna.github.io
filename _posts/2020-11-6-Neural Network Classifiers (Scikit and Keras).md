@@ -8,6 +8,7 @@ git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
 specific_git_link: 
 has_notebook: yes
 notebooks: Neural Network Classifiers (Scikit and Keras).html
+project_download_size: 36.9 MB
 ---
 
 # Overview
@@ -33,6 +34,8 @@ and how they can be utilized in an analysis pipeline. The analysis is done with 
 {% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Neural%20Network%20Classifiers%20(Scikit%20and%20Keras)" %}
 
 {% include view-notebook.html html=content %}
+
+{% include view-notebook-buttons.html html=content %}
 
 
 # Part 1 - Neural Network Classifiers with Scikit and Keras
