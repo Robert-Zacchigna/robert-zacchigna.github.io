@@ -10,7 +10,7 @@ title: About
 </div>
 
 My name is [Robert Zacchigna](https://www.linkedin.com/in/robert-zacchigna){:target="_blank"} and welcome to my little corner 
-of the web containing my various data science'y projects that I have worked or in the process of working on.
+of the web containing my various data science'y projects that I have worked (or in the process of working) on.
 
 On the left-hand side of the page you will see a sidebar that lists all the projects I have worked on and published. Feel 
 free to browse around and take a look, there is quite the variety of content to view.
