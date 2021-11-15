@@ -9,6 +9,7 @@ git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
 specific_git_link: 
 has_notebook: yes
 notebooks: Malaria Cell Image Classification.html
+project_download_size: 10.9 MB
 ---
 
 # Overview
@@ -36,6 +37,8 @@ image classification models for identifying cells that are either infected or un
 {% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Malaria%20Cell%20Image%20Classification" %}
 
 {% include view-notebook.html html=content %}
+
+{% include view-notebook-buttons.html html=content %}
 
 
 # Part 1 - FastAI

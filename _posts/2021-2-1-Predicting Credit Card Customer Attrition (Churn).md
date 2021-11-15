@@ -8,6 +8,7 @@ git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
 specific_git_link: 
 has_notebook: yes
 notebooks: Predicting Credit Card Customer Attrition (Churn).html
+project_download_size: 4.76 MB
 ---
 
 # Overview
@@ -38,6 +39,8 @@ reduction and [SMOTE](https://machinelearningmastery.com/smote-oversampling-for-
 {% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predicting%20Credit%20Card%20Customer%20Attrition%20(Churn)" %}
 
 {% include view-notebook.html html=content %}
+
+{% include view-notebook-buttons.html html=content %}
 
 
 # Methodology

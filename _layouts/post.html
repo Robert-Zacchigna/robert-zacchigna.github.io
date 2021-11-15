@@ -4,9 +4,11 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
+
   <span class="post-date" style="margin-bottom: 0em;"><strong>Date:</strong> {{ page.date | date_to_string }}</span>
   <span class="post-date" style="margin: -0.3rem 0em 0.2em 0em;"><strong>Tag(s):</strong> {{ page.tags | join: ' ' }}</span>
-  <span class="post-date"><strong>Categories:</strong> {{ page.category }}</span>
+  <span class="post-date" style="margin-bottom: 0.2em;"><strong>Categories:</strong> {{ page.category }}</span>
+  <span class="post-date"><strong>Download Project:</strong> <a href="https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/{{ page.title }}.zip">{{ page.project_download_size }} - Zip Archive</a></span>
 
   {% include anchor_headings.html html=content anchorBody="#" %}
 </div>

@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Air Pollution Analysis of Seoul (Districts), South Korea
+title: Air Pollution Data Scraping and Analysis of Seoul (Districts), South Korea
 tags: Jupyter Notebook, Python, Pandas, SQLite, Database, Air Pollution, South Korea, AQI
 category: Data Analysis, Data Scraping
 summary: Air pollution analysis (of the districts in Seoul, South Korea) of AQI data from a collection of several different data sources.
 git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
-specific_git_link: https://github.com/Robert-Zacchigna/Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea
+specific_git_link: https://github.com/Robert-Zacchigna/Portfolio/tree/main/Air%20Pollution%20Data%20Scraping%20and%20Analysis%20of%20Seoul%20(Districts)%2C%20South%20Korea
 has_notebook: yes
 notebooks: Part 1 - Parse and Reformat South Korean Air Pollution Data (CSV).html, Part 2 - Parse and Reformat South Korean Air Pollution Data (Website).html,
            Part 3 - Parse and Reformat South Korean Air Pollution Data (API).html, Part 4 - Merging & Querying All South Korean Air Pollution Data.html
+project_download_size: 25 MB
 ---
 
 # Overview
@@ -25,6 +26,7 @@ and appended to the dataset based on the PM2.5 measurements in accordance with t
 * [Part 3 - Data Collection from an API](#part-3---data-collection-from-an-api)
 * [Part 4 - Merging, Querying and Graphing Data from SQlite Database](#part-4---merging-querying-and-graphing-data-from-sqlite-database)
 
+
 # Part 1 - Data Collection from CSV
 
 This part deals with parsing a CSV dataset (from [Kaggle](https://www.kaggle.com/bappekim/air-pollution-in-seoul){:target="_blank"}) 
@@ -32,9 +34,12 @@ containing air pollution data from different districts in Seoul.
 
 {% assign part = "-Part-1" %}
 {% assign notebook_page = "Part 1 - Parse and Reformat South Korean Air Pollution Data (CSV).html" %}
-{% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea" %}
+{% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Air%20Pollution%20Data%20Scraping%20and%20Analysis%20of%20Seoul%20(Districts)%2C%20South%20Korea" %}
 
 {% include view-notebook.html html=content %}
+
+{% include view-notebook-buttons.html html=content %}
+
 
 # Part 2 - Data Collection from Web-Scraping
 
@@ -43,9 +48,11 @@ This section scrapes air pollution data from the [KOSIS](https://kosis.kr/eng/in
 
 {% assign part = "-Part-2" %}
 {% assign notebook_page = "Part 2 - Parse and Reformat South Korean Air Pollution Data (Website).html" %}
-{% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea" %}
 
 {% include view-notebook.html html=content %}
+
+{% include view-notebook-buttons.html html=content %}
+
 
 # Part 3 - Data Collection from an API
 
@@ -55,9 +62,11 @@ which is an API for retrieving air quality data from countries around the world.
 
 {% assign part = "-Part-3" %}
 {% assign notebook_page = "Part 3 - Parse and Reformat South Korean Air Pollution Data (API).html" %}
-{% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea" %}
 
 {% include view-notebook.html html=content %}
+
+{% include view-notebook-buttons.html html=content %}
+
 
 # Part 4 - Merging, Querying and Graphing Data from SQLite Database
 
@@ -73,6 +82,7 @@ Below is a graph of all the merged data, color coordinated by the AQI for that t
 
 {% assign part = "-Part-4" %}
 {% assign notebook_page = "Part 4 - Merging & Querying All South Korean Air Pollution Data.html" %}
-{% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Air%20Pollution%20Analysis%20and%20Data%20Scraping%20of%20Seoul%20(Districts)%2C%20South%20Korea" %}
 
 {% include view-notebook.html html=content %}
+
+{% include view-notebook-buttons.html html=content %}

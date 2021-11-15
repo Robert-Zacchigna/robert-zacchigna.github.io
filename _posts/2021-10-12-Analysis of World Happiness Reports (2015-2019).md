@@ -8,6 +8,7 @@ git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
 specific_git_link: 
 has_notebook: yes
 notebooks: Analysis of World Happiness Reports (2015-2019).html
+project_download_size: 11 MB
 ---
 
 # Overview
@@ -37,10 +38,13 @@ bring the data into a more holistic world view.
 
 {% include view-notebook.html html=content %}
 
+{% include view-notebook-buttons.html html=content %}
+
 
 # Findings
 
 Main points of the analysis of the reports, correlations/relationships of the metrics in the reports and some graphs that were created to help visualize the data.
+
 
 ## Correlation Matrix of Happiness Score Metrics
 
@@ -52,6 +56,7 @@ and `Gov_Trustworthiness` has a moderate correlation with Happiness score.
 
 Since its clear from the above that GDP, Family, and Life_Expectancy are the main drivers for a country's happiness score,
 it will be the main focus of the report analysis.
+
 
 ## Birds Eye of View of Column Distributions and Correlations
 

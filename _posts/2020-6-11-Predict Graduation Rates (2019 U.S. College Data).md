@@ -8,6 +8,7 @@ git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
 specific_git_link: 
 has_notebook: yes
 notebooks: Predict Graduation Rates (2019 U.S. College Data).html
+project_download_size: 1.5 MB
 ---
 
 # Overview
@@ -34,6 +35,8 @@ that could help university administrators predict what the graduation rate might
 {% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Predict%20Graduation%20Rates%20(2019%20College%20Data)" %}
 
 {% include view-notebook.html html=content %}
+
+{% include view-notebook-buttons.html html=content %}
 
 
 # Methodology

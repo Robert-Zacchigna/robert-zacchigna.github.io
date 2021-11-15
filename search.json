@@ -4,12 +4,13 @@ layout: null
 [
   {% for post in site.posts %}
     {
-      "title"    : "{{ post.title | escape }}",
-      "summary"  : "{{ post.summary }}",
-      "category" : "{{ post.category }}",
-      "tags"     : "{{ post.tags | join: ' ' }}",
-      "url"      : "{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date | date_to_string }}"
+      "title"         : "{{ post.title | escape }}",
+      "date"          : "{{ post.date | date_to_string }}",
+      "summary"       : "{{ post.summary }}",
+      "category"      : "{{ post.category }}",
+      "tags"          : "{{ post.tags | join: ' ' }}",
+      "url"           : "http://127.0.0.1:4000{{ post.url }}",
+      "download_size" : "{{ post.project_download_size }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

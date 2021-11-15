@@ -8,6 +8,7 @@ git_prepend: https://github.com/Robert-Zacchigna/Portfolio/tree/main/
 specific_git_link: 
 has_notebook: yes
 notebooks: Create Optimal Hotel Recommendations.html
+project_download_size: 7.57 MB
 ---
 
 # Overview
@@ -28,6 +29,8 @@ for selecting the best hotel recommendations for Expedia users.
 {% assign github_notebook = "https://github.com/Robert-Zacchigna/Portfolio/tree/main/Create%20Optimal%20Hotel%20Recommendations" %}
 
 {% include view-notebook.html html=content %}
+
+{% include view-notebook-buttons.html html=content %}
 
 
 # Methodology

@@ -12,7 +12,8 @@ title: Post-Feed
 
       <span class="post-date" style="margin-bottom: 0em;"><strong>Date:</strong> {{ post.date | date_to_string }}</span>
       <span class="post-date" style="margin: -0.3rem 0em 0.2em 0em;"><strong>Tag(s):</strong> {{ post.tags | join: ' ' }}</span>
-      <span class="post-date"><strong>Categories:</strong> {{ post.category }}</span>
+      <span class="post-date" style="margin-bottom: 0.2em;"><strong>Categories:</strong> {{ post.category }}</span>
+      <span class="post-date"><strong>Download Project:</strong> <a href="https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/{{ post.title }}.zip">{{ post.project_download_size }} - Zip Archive</a></span>
 
       <h2>Summary</h2>
 
@@ -44,7 +45,10 @@ title: Post-Feed
               {% assign github_notebook = post.specific_git_link %}
             {% endif %}
 
-            {% include feed-notebook-buttons.html html=content %}
+            <ins><p style="margin-bottom: 0.5em;"><strong>{{ notebook | remove_first: ".html" }}:</strong></p></ins>
+
+            {% include view-notebook-buttons.html html=content %}
+
             <p></p>
 
           {% endfor %}
