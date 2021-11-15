@@ -206,6 +206,9 @@ deciding factor for the better model.
 
 <img style="margin: 0;" src="/assets/images/Malaria Cell Image Classification/Tensorflow-Keras/Image Predictions.png" title="Tensorflow/Keras - Image Predictions">
 
+
+# Overall Conclusion
+
 Both of these CNN model implementations have their pros and cons, FastAI makes it very simple to create, run, sample, 
 and predict with very little extra work on the users part. The drawback to this is that you don't have as much finer control 
 of your model and largely left to the whims of the library. Tensorflow/Keras however, provides much finer control over pretty 
