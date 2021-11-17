@@ -17,7 +17,7 @@
 
       {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
       {% for year in postsByYear %}
-        <a class="dropdown-btn btn btn-success" id="{{ year.name }}" style="cursor: pointer; font-weight: bold;">{{ year.name }} ▼</a>
+        <a class="dropdown-btn btn btn-success" id="{{ year.name }}" style="cursor: pointer; font-weight: bold;" title="{{ year.name }} Posts/Projects">{{ year.name }} ▼</a>
       {% endfor %}
 
       {% for year in postsByYear %}
