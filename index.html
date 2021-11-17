@@ -53,10 +53,13 @@ title: Home
             <br>
             More <a href="{{ site.baseurl | append: '/'}}about">about</a> me and/or get in <a href="{{ site.baseurl | append: '/'}}contact">contact</a> with me.
         </p>
+
+        <a class="btn btn-success" id="github-feed-button" style="cursor: pointer; font-weight: bold;" title="See What I've Been Up to On GitHub">Display GitHub Activity Feed</a>
+
     </div>
 </center>
 
-<div style="padding-bottom: 1em;">
+<div id="github-feed" style="display: none;">
     <h1 id="github-activity-feed">GitHub Activity Feed <a href="#github-activity-feed">#</a></h1>
 
     <div id="feed" ></div>
