@@ -26,15 +26,6 @@ title: Post-Feed
 
         <p>The notebook(s) go(es) step-by-step through the project, please follow the directions and cell order if you would like to replicate the results.</p>
 
-        <ul>
-            <li>
-                Click the "View Notebook" button to open the rendered notebook in a new tab
-            </li>
-            <li>
-                Click the "GitHub" button to view the project in the <a href="https://github.com/about" title="What is GitHub?" target="_blank">GitHub</a> portfolio repo
-            </li>
-        </ul>
-
         {% if post.has_notebook %}
           {% for notebook in notebook_list %}
             {% assign notebook_page = notebook %}
