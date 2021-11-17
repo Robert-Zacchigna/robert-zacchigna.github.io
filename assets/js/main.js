@@ -13,7 +13,7 @@ $(function(){
 });
 
 // Year Dropdown Buttons
-$(function(){
+$(function() {
     $(".dropdown-btn").click(function() {
         $('.dropdown-btn').not(this).removeClass('active-btn');
         $(this).toggleClass('active-btn');
@@ -34,6 +34,25 @@ $(function(){
                 else { btn_list[i].innerHTML = btn_list[i].id + " ▼"; }
             }
             else { btn_list[i].innerHTML = btn_list[i].id + " ▼"; }
+        }
+    });
+});
+
+// Display/Hide GitHub Activity Feed
+$(function() {
+    $("#github-feed-button").click(function() {
+        $('#github-feed-button').not(this).removeClass('active-btn');
+        $(this).toggleClass('active-btn');
+
+        class_list = [].slice.call(document.getElementById('github-feed-button').classList);
+
+        if (class_list.includes("active-btn")) {
+            this.innerHTML = "Hide GitHub Activity Feed";
+            document.getElementById('github-feed').style.cssText = "padding-bottom: 1em; display: block;"
+        }
+        else {
+            this.innerHTML = "Display GitHub Activity Feed";
+            document.getElementById('github-feed').style.cssText = "display: none;"
         }
     });
 });
