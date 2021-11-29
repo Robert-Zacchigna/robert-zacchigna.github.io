@@ -1,0 +1,41 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl | append: '/'}}about" title="Learn More About Me and the Site">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      {% comment %}
+        The code below dynamically generates a sidebar nav of posts organize by year in different dropdown menus.
+        `layout: post` in the front-matter. See readme for usage.
+      {% endcomment %}
+
+      {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+      {% for year in postsByYear %}
+        <a class="dropdown-btn btn btn-success" id="{{ year.name }}" style="cursor: pointer; font-weight: bold;" title="{{ year.name }} Posts/Projects">{{ year.name }} ▼</a>
+      {% endfor %}
+
+      {% for year in postsByYear %}
+        <div class="dropdown-year" id="{{ year.name }}" style="display: none;">
+        {% for post in year.items %}
+          <hr style="margin: 0.3em 0; z-index: 1;">
+          <a class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        {% endfor %}
+        </div>
+      {% endfor %}
+
+      <hr style="z-index: 1; margin: 1em 0 0.5em 0; border-top: 2px solid lightgray; border-radius: 5px;">
+
+      <a class="sidebar-nav-item" title="View Portfolio GitHub Repo" target="_blank" href="{{ site.github_url }}">View GitHub</a>
+      <a class="sidebar-nav-item" title="Download Portfolio Projects" href="{{ site.baseurl | append: '/' }}download-projects.html">Download Projects</a>
+      <p style="color: #DEDEDE;">Jekyll Theme: <a title="View BlackDoc Theme GitHub Repo" href="{{ site.github_url }}/tree/gh-pages_BlackDoc-Theme#blackdoc-github-page" target="_blank"><strong>BlackDoc</strong></a></p>
+    </nav>
+
+    <p>&copy; {{ site.time | date: '%Y' }}, All rights reserved.</p>
+  </div>
+</div>

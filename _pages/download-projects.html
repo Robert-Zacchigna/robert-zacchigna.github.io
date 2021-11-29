@@ -1,0 +1,35 @@
+---
+layout: page
+permalink: /download-projects
+title: Download Projects
+---
+
+<p style="margin-bottom: 0em;">Download list of all the projects on the site, they are listed in <strong>alphabetical order</strong>.</p>
+
+<p>You can also search for the project you're looking for by clicking the "<a href="{{ site.baseurl | append: '/' }}search.html" title="Search the Posts on the Site">Search</a>" link in the navbar.</p>
+
+<p>If you can't decide which project(s) to download: <a href="https://github.com/Robert-Zacchigna/Portfolio/archive/refs/heads/Zipped-Projects.zip" title="If You Dare...">Download All Projects (111 MB)</a></p>
+
+<div>
+    <ul>
+        {% assign sortedPosts = site.posts | sort: 'title' %}
+
+        {% for post in sortedPosts %}
+            <li>
+                <h2 style="margin: 0.5em 0.5em 0 0;" id="{{ post.title | downcase | replace: ' ', '-' }}">{{ post.title }}</h2>
+                <p style="margin-bottom: 0.2em;"><strong>Date:</strong> {{ post.date | date_to_string }}</p>
+
+                <b><a class="btn btn-success" title="View Project Post" href="{{ site.baseurl }}{{ post.url }}">View Project</a></b>
+                <b><a class="btn btn-success" title="Download ({{ post.project_download_size }} - Zip Archive)" href="https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/{{ post.title }}.zip">Download ({{ post.project_download_size }})</a></b>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+
+
+
+
+
+
+
+

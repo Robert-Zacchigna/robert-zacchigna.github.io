@@ -1,0 +1,66 @@
+---
+layout: default
+title: Home
+---
+
+<link rel="stylesheet" href="{{ "/assets/github_feed/octicons.min.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/assets/github_feed/github-feed-fixes.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{ "/assets/github_feed/github-activity.min.css" | prepend: site.baseurl }}">
+
+<script type="text/javascript" src="{{ "/assets/github_feed/mustache.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/assets/github_feed/github-activity.min.js" | prepend: site.baseurl }}"></script>
+
+<!-- if using dark theme add this in addition to the main CSS file -->
+<link rel="stylesheet" href="{{ "/assets/github_feed/github-activity.dark.min.css" | prepend: site.baseurl }}">
+
+<script type="text/javascript">
+    GitHubActivity.feed({
+        username: "Robert-Zacchigna",
+        selector: "#feed", limit: 10,
+    });
+</script>
+
+<style>
+    .home_background {
+        margin-bottom: 1em;
+        padding: 1.5em 0 1.5em 0;
+
+        background-image: url('{{ "/assets/images/Home/binary_code_banner.png" | prepend: site.baseurl }}');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+<center>
+    <div class="home_background">
+        <img src="{{ "/assets/images/Home/Robert_Home.jpg" | prepend: site.baseurl }}" style="margin-bottom: 0; max-width: 230px; border-radius: 15%;" title="Robert Zacchigna">
+    </div>
+
+    <div>
+        <p>
+            <a href="https://c.tenor.com/DSG9ZID25nsAAAAC/hello-there-general-kenobi.gif" target="_blank">Hello there</a>,
+            on this site you will find many posts/projects of the <a href="https://en.wikipedia.org/wiki/Data_science" target="_blank">Data Science</a>
+            variety...but not always, I branch out from time to time.
+        </p>
+        <ins><strong>How to find things (like my posts/projects):</strong></ins>
+
+        <span style="display: block;">On the sidebar, to the left, using the dropdown menus (top of the page on mobile devices)</span>
+        <span style="display: block;">Click the "<a href="{{ site.baseurl | append: '/' }}post-feed/index.html" title="News-Like Feed of my Posts/Projects">Post-Feed</a>" link in the navbar to see a <em>news-like</em> feed of my posts/projects</span>
+        <p style="display: block;">Click the "<a href="{{ site.baseurl | append: '/' }}search.html" title="Search the Posts on the Site">Search</a>" link in the navbar to search through all the posts/projects on the site</p>
+
+        <p>
+            Whatever brought you here, I hope you find what you're looking for. Thanks for viewing.
+            <br>
+            More <a href="{{ site.baseurl | append: '/'}}about">about</a> me and/or get in <a href="{{ site.baseurl | append: '/'}}contact">contact</a> with me.
+        </p>
+
+        <a class="btn btn-success" id="github-feed-button" style="cursor: pointer; font-weight: bold;" title="See What I've Been Up to On GitHub">Display GitHub Activity Feed</a>
+
+    </div>
+</center>
+
+<div id="github-feed" style="display: none;">
+    <h1 id="github-activity-feed">GitHub Activity Feed <a href="#github-activity-feed">#</a></h1>
+
+    <div id="feed" ></div>
+</div>

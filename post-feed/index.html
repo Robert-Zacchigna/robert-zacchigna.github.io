@@ -1,0 +1,74 @@
+---
+layout: default
+title: Post-Feed
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+    {% assign notebook_list = post.notebooks | split: ", " %}
+
+    <div class="post">
+      <h1 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <span class="post-date" style="margin-bottom: 0em;"><strong>Date:</strong> {{ post.date | date_to_string }}</span>
+      <span class="post-date" style="margin: -0.3rem 0em 0.2em 0em;"><strong>Tag(s):</strong> {{ post.tags | join: ' ' }}</span>
+      <span class="post-date" style="margin-bottom: 0.2em;"><strong>Categories:</strong> {{ post.category }}</span>
+      <span class="post-date"><strong>Download Project:</strong> <a href="https://github.com/Robert-Zacchigna/Portfolio/raw/Zipped-Projects/{{ post.title }}.zip">{{ post.project_download_size }} - Zip Archive</a></span>
+
+      <h2>Summary</h2>
+
+      {{ post.summary }}
+
+      <p style="padding-top: 10px;"><b><a class="btn btn-success" title="Or Click the Title" href="{{ site.baseurl }}{{ post.url }}">View Full Post</a></b></p>
+
+      <div>
+        <h2>View Jupyter Notebook(s):</h2>
+
+        <p>The notebook(s) go(es) step-by-step through the project, please follow the directions and cell order if you would like to replicate the results.</p>
+
+        {% if post.has_notebook %}
+          {% for notebook in notebook_list %}
+            {% assign notebook_page = notebook %}
+
+            {% if post.specific_git_link == nil %}
+              {% assign github_notebook = notebook | prepend: post.git_prepend %}
+            {% else %}
+              {% assign github_notebook = post.specific_git_link %}
+            {% endif %}
+
+            <ins><p style="margin-bottom: 0.5em;"><strong>{{ notebook | remove_first: ".html" }}:</strong></p></ins>
+
+            {% include view-notebook-buttons.html html=content %}
+
+            <p></p>
+
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+
+    <hr style="z-index: -1; border: none; border-top: 0.5em solid lightgray; border-radius: 5px;">
+  {% endfor %}
+</div>
+
+<center class="page-tabs" style="position: -webkit-sticky; position: sticky; z-index: 2; pointer-events: none;">
+  <div class="pagination" style="pointer-events: auto;">
+
+    {% if paginator.next_page %}
+      <b><a class="pagination-item older page-older" href="{{ site.baseurl | append: '/'}}post-feed/page-{{paginator.next_page}}">Older Posts (Page-{{paginator.next_page}})</a></b>
+    {% else %}
+      <b><span class="pagination-item older page-older">Older Posts</span></b>
+    {% endif %}
+
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <b><a class="pagination-item newer page-newer" href="{{ site.baseurl | append: '/'}}post-feed/index.html">Newer Posts (Page-1)</a></b>
+      {% else %}
+        <b><a class="pagination-item newer page-newer" href="{{ site.baseurl | append: '/'}}post-feed/page-{{paginator.previous_page}}">Newer Posts (Page-{{paginator.previous_page}})</a></b>
+      {% endif %}
+    {% else %}
+      <b><span class="pagination-item newer page-newer">Newer Posts</span></b>
+    {% endif %}
+
+  </div>
+</center>
