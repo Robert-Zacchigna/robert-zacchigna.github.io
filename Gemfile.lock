@@ -114,11 +114,11 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  bundler (~> 1.12)
+  bundler (>= 2.2.10)
   jekyll-octicons
   jekyll-theme-blackdoc!
   kramdown-parser-gfm
-  tzinfo (= 1.2.1)
+  tzinfo (>= 1.2.1)
   tzinfo-data
   wdm (>= 0.1.0)
   webrick
