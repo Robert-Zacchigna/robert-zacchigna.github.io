@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-# robert-zacchigna.github.io
-=======
 # BlackDoc (GitHub Page)
 
 ![Jekyll version](https://img.shields.io/badge/Jekyll-3.x-brightgreen.svg?style=flat-square)
 
-View Site Here: [Project Portfolio](https://robert-zacchigna.github.io/Portfolio/)
+View Site Here: [Project Portfolio](https://robert-zacchigna.github.io)
 
 BlackDoc is a two-column [Jekyll](http://jekyllrb.com) theme that's ideal for websites that require a master-detail layout for viewing of content. It's based on [Poole](http://getpoole.com), the Jekyll butler, and the [Hyde](http://hyde.getpoole.com) theme.
 
@@ -116,19 +113,21 @@ BlackDoc's page orientation can be reversed with a single class.
 </body>
 ```
 
-## Author
+## Original Theme Author
 
 **Karlo Espiritu**
 - <https://github.com/karloespiritu>
 - <https://twitter.com/karloespiritu>
 
+## Theme Modification By
+
+**Robert Zacchigna**
+- <https://github.com/Robert-Zacchigna>
+
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
 
-\m/
-
 ## Thanks
 
 Thanks to [@mdo](https://twitter.com/mdo) for creating the awesome [Poole](http://getpoole.com) project.
->>>>>>> 418bd8346a22f008f93e01985869ad377a5bde18
