@@ -9,7 +9,7 @@ var zipped_projects_link = 'https://github.com/Robert-Zacchigna/Portfolio/raw/Zi
 window.simpleJekyllSearch = new SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
-    json: 'https://robert-zacchigna.github.io/Portfolio/search.json', // Manually set full website path of json file
+    json: 'https://robert-zacchigna.github.io/search.json', // Manually set full website path of json file
     searchResultTemplate: ('<li><a href="{url}">{title}</a><p>' +
                            '<strong>Summary:</strong> {summary} <br>' +
                            '<strong>Date:</strong> {date} <br>' +
