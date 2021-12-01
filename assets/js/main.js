@@ -5,12 +5,12 @@ $(window).bind('load resize', function(event) {
 
 // Nav Bar Page Highlighting
 $(function(){
-    $('a').each(function(){
+    $('.nav a').each(function(){
         var win_href = window.location.href;
 
         if ($(this).prop('href') == win_href) {
             $(this).parent('div').addClass('active');
-        } else if ($(this).prop('href') == win_href.slice(0, -1)) {
+        } else if ($(this).prop('href').includes('post-feed') && win_href.includes('post-feed')) {
             $(this).parent('div').addClass('active');
         } else {
             $(this).parent('div').removeClass('active');
