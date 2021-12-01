@@ -17,7 +17,7 @@
 
       {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
       {% for year in postsByYear %}
-        <a class="dropdown-btn btn btn-success" id="{{ year.name }}" style="cursor: pointer; font-weight: bold;" title="{{ year.name }} Posts/Projects">{{ year.name }} ▼</a>
+        <a class="dropdown-btn btn btn-success" id="{{ year.name }}" style="cursor: pointer; font-weight: bold; margin-bottom: 0.25em;" title="{{ year.name }} Posts/Projects">{{ year.name }} ▼</a>
       {% endfor %}
 
       {% for year in postsByYear %}
@@ -29,7 +29,7 @@
         </div>
       {% endfor %}
 
-      <hr style="z-index: 1; margin: 1em 0 0.5em 0; border-top: 2px solid lightgray; border-radius: 5px;">
+      <hr style="z-index: 1; margin: 1em 0 0.75em 0; border-top: 2px solid lightgray; border-radius: 5px;">
 
       <a class="sidebar-nav-item" title="View GitHub Profile" target="_blank" href="{{ site.author.url }}">View GitHub Profile</a>
       <a class="sidebar-nav-item" title="Download Portfolio Projects" href="{{ site.baseurl }}download-projects.html">Download Projects</a>
