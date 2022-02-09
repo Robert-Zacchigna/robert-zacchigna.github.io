@@ -5,7 +5,7 @@ title: About
 ---
 
 <div>
-    <p style="float: left; padding-right: 25px; margin-bottom: 0;"><img style="margin: 0 0 0;" src="https://media-exp1.licdn.com/dms/image/C5603AQGiPbW--kv6Ug/profile-displayphoto-shrink_800_800/0/1569778612501?e=1638403200&v=beta&t=s4bzzaWBJRnagd8Fq6Jep8uJM7uHnOTFo33Dfbijy0Y" height="300" width="300" title="Robert Zacchigna"></p>
+    <p style="float: left; padding-right: 25px; margin-bottom: 0;"><img style="margin: 0 0 0;" src="/assets/images/Prof_Headshot.jpg" height="300" width="300" title="Robert Zacchigna"></p>
     <h2><a id="hello-there" style="color: #aaa;" target="_blank" href="https://c.tenor.com/DSG9ZID25nsAAAAC/hello-there-general-kenobi.gif">Hello There!</a></h2>
 </div>
 
