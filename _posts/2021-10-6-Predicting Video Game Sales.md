@@ -109,7 +109,7 @@ their share of game sales is far lower than you would be led to believe.
 The correlation matrix below shows that both the `Rank` and `Year` columns have no significant relationship with any of the 
 `sales` columns and thus they can be safely dropped from the dataset.
 
-<img style="margin: 0;" src="/assets/images/Predicting Video Game Sales/Top 10 Video Game Publishers by Global Sales Per Year.png" title="Top 10 Video Game Publishers by Global Sales Per Year">
+<img style="margin: 0;" src="/assets/images/Predicting Video Game Sales/Annotated Correlation Matrix of Sales Columns.png" title="Annotated Correlation Matrix of Sales Columns">
 
 Due to the number of categorical values in each of the categorical columns (`Genre`, `Platform` and `Publisher`) and the
 massive increase in modeling time that be caused by [OneHotEncoded](https://hackernoon.com/what-is-one-hot-encoding-why-and-when-do-you-have-to-use-it-e3c6186d008f){:target="_blank"}
