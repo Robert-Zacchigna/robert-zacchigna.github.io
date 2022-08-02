@@ -43,20 +43,22 @@ Make sure you have Ruby 2.2.5 or higher installed.
 
 ```bash
 $ ruby --version
-ruby 2.2.5
+ruby 3.1.2
 ```
 
-Install bundler and install dependencies.
+Install/Update bundler and install dependencies.
 
 ```bash
 $ gem install bundler
+$ gem install jekyll bundler
 $ bundle install
+$ bundle update --bundler
 ```
 
 Build and run your BlackDoc site.
 
 ```bash
-$ jekyll serve
+$ bundle exec jekyll serve
 ```
 
 >**NOTE:** If you want to use this theme as a GitHub Page you need use the [master branch](https://github.com/Robert-Zacchigna/BlackDoc) instead, this version is only for running the site locally.
