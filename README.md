@@ -48,13 +48,15 @@ Install bundler and install dependencies.
 
 ```bash
 $ gem install bundler
+$ gem install jekyll bundler
 $ bundle install
+$ bundle update --bundler
 ```
 
 Build and run your BlackDoc site.
 
 ```bash
-$ jekyll serve
+$ bundle exec jekyll serve
 ```
 
 > **NOTE:** This theme is designed to specifically run using GitHub Pages and thus will not run correctly when run locally, to run this site locally use the [BlackDoc-Local branch](https://github.com/Robert-Zacchigna/BlackDoc/tree/BlackDoc-Local)
