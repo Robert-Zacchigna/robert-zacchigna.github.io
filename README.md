@@ -1,4 +1,4 @@
-# BlackDoc (GitHub Page)
+# BlackDocPlus (GitHub Page)
 
 ![Jekyll version](https://img.shields.io/badge/Jekyll-3.x-brightgreen.svg?style=flat-square)
 
@@ -58,7 +58,7 @@ Build and run your BlackDoc site.
 bundle exec jekyll serve
 ```
 
-> **NOTE:** This theme is designed to specifically run using GitHub Pages and thus will not run correctly when run locally, to run this site locally use the [BlackDoc-Local branch](https://github.com/Robert-Zacchigna/BlackDoc/tree/BlackDoc-Local)
+> **NOTE:** This theme is designed to specifically run using GitHub Pages and thus will not run correctly when run locally, to run this site locally use the [BlackDocPlus-Local branch](https://github.com/Robert-Zacchigna/BlackDocPlus/tree/local)
 
 ## Usage
 
