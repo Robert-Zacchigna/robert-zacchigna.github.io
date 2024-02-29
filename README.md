@@ -23,7 +23,6 @@ BlackDoc is a two-column [Jekyll](http://jekyllrb.com) theme that's ideal for we
 - [Development](#development)
 - [Author](#author)
 - [License](#license)
-- [Thanks](#thanks)
 
 ## Features
 
@@ -36,32 +35,32 @@ BlackDoc is a two-column [Jekyll](http://jekyllrb.com) theme that's ideal for we
 Download the zip file or clone the BlackDoc repo.
 
 ```bash
-$ git clone git@github.com:karloespiritu/BlackDoc.git mysite
-$ cd mysite
+git clone git@github.com:karloespiritu/BlackDoc.git mysite
+cd mysite
 ```
-Make sure you have Ruby 2.2.5 or higher installed.
+Make sure you have Ruby 3.1.2 or higher installed.
 
 ```bash
-$ ruby --version
+ruby --version
 ruby 3.1.2
 ```
 
 Install/Update bundler and install dependencies.
 
 ```bash
-$ gem install bundler
-$ gem install jekyll bundler
-$ bundle install
-$ bundle update --bundler
+gem install bundler
+gem install jekyll bundler
+bundle install
+bundle update --bundler
 ```
 
 Build and run your BlackDoc site.
 
 ```bash
-$ bundle exec jekyll serve
+bundle exec jekyll serve
 ```
 
->**NOTE:** If you want to use this theme as a GitHub Page you need use the [master branch](https://github.com/Robert-Zacchigna/BlackDoc) instead, this version is only for running the site locally.
+>**NOTE:** If you want to use this theme as a GitHub Page you need use the [main branch](https://github.com/Robert-Zacchigna/BlackDocPlus) instead, this version is only for running the site locally.
 
 ## Usage
 
@@ -131,7 +130,3 @@ BlackDoc's page orientation can be reversed with a single class.
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
-
-## Thanks
-
-Thanks to [@mdo](https://twitter.com/mdo) for creating the awesome [Poole](http://getpoole.com) project.
