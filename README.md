@@ -26,14 +26,14 @@ BlackDoc is a two-column [Jekyll](http://jekyllrb.com) theme that's ideal for we
 
 * Now compatible with Jekyll 3.x
 * Two-column layout with scrolling sidebar content
-* Ideal for websites that require  master-detail view of content
+* Ideal for websites that require master-detail view of content
 
 ## Quick Start
 
 Download the zip file or clone the BlackDoc repo.
 
 ```bash
-git clone git@github.com:karloespiritu/BlackDoc.git mysite
+git clone git@github.com:Robert-Zacchigna/BlackDocPlus.git mysite
 cd mysite
 ```
 Make sure you have Ruby 3.1.2 or higher installed.
