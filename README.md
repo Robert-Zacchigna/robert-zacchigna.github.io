@@ -2,7 +2,7 @@
 
 ![Jekyll version](https://img.shields.io/badge/Jekyll-3.x-brightgreen.svg?style=flat-square)
 
-View demo: https://demo.BlackDocPlus.github.io
+View Demo: https://robert-zacchigna.github.io/BlackDocPlus/
 
 To use this site as a GitHub Page, use the [main](https://github.com/Robert-Zacchigna/BlackDocPlus) branch.
 
