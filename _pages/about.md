@@ -10,21 +10,27 @@ title: About
 </div>
 
 My name is [Robert Zacchigna](https://www.linkedin.com/in/robert-zacchigna){:target="_blank"} and welcome to my little corner 
-of the web containing my various data science'y projects that I have worked (or in the process of working) on.
+of the web containing my various (data science'y) projects that I am working on or have completed.
 
 On the left-hand side of the page you will see a sidebar that lists all the projects I have worked on and published. Feel 
 free to browse around and take a look, there is quite the variety of content to view.
 
 ## A Little About Me (<a style="color: #ffeb99;" onMouseOver="this.style.color='#caad00'" onMouseOut="this.style.color='#ffeb99'" target="_blank" href="{{ site.baseurl }}assets/Zacchigna_Resume.pdf">Resume</a>)
 
-I graduated from [Illinois State University](https://illinoisstate.edu/ "Go Redbirds!"){:target="_blank"} in 2019 and not long after started working as a Data Engineer at my current employer: 
-[Discover Financial Services](https://www.discover.com/company/){:target="_blank"} (going on almost 2.5 years of service).
-During my time at Discover, I was actually able to pursue a Masters in Data Science and find my passion for [Data Science](https://en.wikipedia.org/wiki/Data_science){:target="_blank"} 
+I graduated from [Illinois State University](https://illinoisstate.edu/ "Go Redbirds!"){:target="_blank"} in 2019 and not long after started working as a *Data Engineer* at 
+[Discover Financial Services](https://www.discover.com/company/){:target="_blank"} (I am currently working as a *Software Engineer* at
+[Capital One](https://www.capitalone.com/){:target="_blank"}, 2022).
+
+During my time at Discover, I was able to pursue a Masters in Data Science and find my passion for [Data Science](https://en.wikipedia.org/wiki/Data_science){:target="_blank"} 
 and [Data Engineering](https://www.springboard.com/library/data-engineering/job-description/){:target="_blank"} thanks to 
 their employee advancement program (which only further cemented my love for [Python](https://www.python.org/about/ "Hail the Almighty Snake!"){:target="_blank"}).
 
 I have since graduated from [Bellevue University](https://www.bellevue.edu/){:target="_blank"} (2021) with a Masters in 
 Data Science and continue to develop my analytical skills through the various projects that I pursue, see sidebar to the left.
+
+I also have continued my learning and engineering advancement of cloud services with [AWS](https://aws.amazon.com/){:target="_blank"} Certifications:
+* [AWS Certified Machine Learning – Specialty](https://www.credly.com/badges/8719d534-6f73-4bc6-92ee-1e7cda4ecb9f/linked_in_profile){:target="_blank"} (2024)
+* [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/71fa38dc-a648-4f29-a775-8e9afb9e544d){:target="_blank"} (2022)
 
 ## Interested in Data Science?
 

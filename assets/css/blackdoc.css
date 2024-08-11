@@ -41,8 +41,7 @@ body {
   max-width: 80em;
   margin: 0 auto !important;
   float: none !important;
-
-  color: #848482;
+  color: #c9c9c6;
   background-color: #000000;
 }
 
@@ -125,7 +124,7 @@ hr {
 }
 
 blockquote {
-  color: #666;
+  color: #9a9891;
   border-left: .25rem solid #333;
 }
 
@@ -296,6 +295,15 @@ nav .active {
     display: flex;
     flex-wrap: wrap;
     background-color: #3c3c3c;
+    border-radius: 7px;
+}
+
+#nav-head {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px; z-index: 2;
 }
 
 .nav-item {
