@@ -424,10 +424,10 @@ a.pagination-item:hover {
     bottom: 0em;
   }
 
-@media (min-width: 70em) {
+@media (min-width: 60em) {
   .pagination {
     margin: 1rem 0;
-    max-width: 60%;
+    max-width: 57.8%;
   }
   .page-tabs {
     bottom: 1em;

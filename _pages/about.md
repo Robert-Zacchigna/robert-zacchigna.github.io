@@ -28,9 +28,20 @@ their employee advancement program (which only further cemented my love for [Pyt
 I have since graduated from [Bellevue University](https://www.bellevue.edu/){:target="_blank"} (2021) with a Masters in 
 Data Science and continue to develop my analytical skills through the various projects that I pursue, see sidebar to the left.
 
-I also have continued my learning and engineering advancement of cloud services with [AWS](https://aws.amazon.com/){:target="_blank"} Certifications:
+I have also continued my learning and engineering advancement of cloud services with [AWS](https://aws.amazon.com/){:target="_blank"} Certifications:
 * [AWS Certified Machine Learning – Specialty](https://www.credly.com/badges/8719d534-6f73-4bc6-92ee-1e7cda4ecb9f/linked_in_profile){:target="_blank"} (2024)
 * [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/71fa38dc-a648-4f29-a775-8e9afb9e544d){:target="_blank"} (2022)
+
+### Recent Projects/Contributions:
+* [PyEtrade](https://github.com/jessecooper/pyetrade){:target="_blank"}
+  * I did not create this module, but I significantly rewrote and modernized it.
+  * Praise from original creator/author: [Jesse Cooper](https://github.com/jessecooper/pyetrade/pull/91#issuecomment-2067101750){:target="_blank"}
+* [MKVAudioSubsDefaulter](https://github.com/Robert-Zacchigna/MKVAudioSubsDefaulter){:target="_blank"}
+  * Simple multi-processing python cli to set the default audio and/or subtitles of a single matroska (.mkv) file or a 
+  library of files WITHOUT having to remux the file.
+* [BlackDocPlus](https://github.com/Robert-Zacchigna/BlackDocPlus){:target="_blank"}
+  * A modernized version of the [BlackDoc](https://github.com/Robert-Zacchigna/BlackDoc){:target="_blank"} theme: a two-column Jekyll theme for websites that 
+  require a master-detail layout for viewing of content (the current theme of my/this site).
 
 ## Interested in Data Science?
 
