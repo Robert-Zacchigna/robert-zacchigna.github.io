@@ -295,7 +295,8 @@ nav .active {
     display: flex;
     flex-wrap: wrap;
     background-color: #3c3c3c;
-    border-radius: 7px;
+    -webkit-border-radius: 0 10px 10px 0;
+    border-radius: 0 10px 10px 0;
 }
 
 #nav-head {
@@ -310,9 +311,8 @@ nav .active {
     margin: auto;
     padding-left: 10px;
     padding-right: 10px;
-
     text-align: center;
-    border-radius: 7px;
+    border-radius: 10px;
 }
 
 @media (min-width: 25em) {
