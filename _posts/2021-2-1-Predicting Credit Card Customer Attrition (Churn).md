@@ -81,7 +81,7 @@ Histograms of the numerical variables to see their overall distributions in the 
 </div>
 
 We can see that while the gender of the dataset is relatively balanced, the majority of the customer data we have is of 
-existing customers. Thus, this is where [SMOTE](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/){:target="_blank"}  
+existing customers. Thus, this is where [SMOTE](https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/){:target="_blank"} 
 comes in to help balance the data by up-sampling the attrited samples to match them with the regular customer sample size. 
 This should balance out the skewed data and also help improve the performance of the models.
 
