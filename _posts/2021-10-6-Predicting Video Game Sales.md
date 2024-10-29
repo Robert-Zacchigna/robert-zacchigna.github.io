@@ -18,14 +18,11 @@ The video game market has only continued to grow over the years and is now spann
 market the various gaming publishers will want to capitalize on the interests of the various gamers within it and picking 
 the right kind of game to develop and put out into the market could make or break a gaming publisher/studio.
 
-This project compares the performance of several different classification models 
-([Linear Regression](https://machinelearningmastery.com/linear-regression-for-machine-learning/){:target="_blank"}, 
-[Random Forest](https://en.wikipedia.org/wiki/Random_forest){:target="_blank"}, 
-[K-Nearest Neighbor](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm){:target="_blank"} -KNN- and 
-[Decision Tree](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052){:target="_blank"}) 
-in order to create the best model possible for predicting which types of game to make and where to market it for the best
-sales results possible. For model scoring, the [Adjusted R^2](https://www.statisticshowto.com/probability-and-statistics/statistics-definitions/adjusted-r2/){:target="_blank"}
-metric will be used to see which model performed the best with the data.
+This project compares the performance of several different regression models 
+([Linear Regression](https://machinelearningmastery.com/linear-regression-for-machine-learning/){:target="_blank"}, [Random Forest](https://en.wikipedia.org/wiki/Random_forest){:target="_blank"}, 
+[K-Nearest Neighbor (KNN)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm){:target="_blank"} and [Decision Tree](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052){:target="_blank"}) 
+in order to analyze which model performs the best for predicting sales performance over time. For model scoring, 
+the [Adjusted R^2](https://www.statisticshowto.com/probability-and-statistics/statistics-definitions/adjusted-r2/){:target="_blank"} metric will be used to see which model performed the best with the data.
 
 This notebook explores several different types of regression models (see above), in order to find the best model possible 
 that can predict the expected sales performance of a video game.
