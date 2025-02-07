@@ -17,27 +17,27 @@ free to browse around and take a look, there is quite the variety of content to 
 
 ## A Little About Me (<a style="color: #ffeb99;" onMouseOver="this.style.color='#caad00'" onMouseOut="this.style.color='#ffeb99'" target="_blank" href="{{ site.baseurl }}assets/Zacchigna_Resume.pdf">Resume</a>)
 
-I graduated from [Illinois State University](https://illinoisstate.edu/ "Go Redbirds!"){:target="_blank"} in 2019 and not long after started working as a *Data Engineer* at 
-[Discover Financial Services](https://www.discover.com/company/){:target="_blank"} (I am currently working as a *Software Engineer* at
-[Capital One](https://www.capitalone.com/){:target="_blank"}, 2022).
+I graduated from [Illinois State University](https://illinoisstate.edu/ "Go Redbirds!"){:target="_blank"} and not long after started working as a *Data Engineer* at 
+[Discover Financial Services](https://www.discover.com/company/){:target="_blank"}. Several years later, after gaining tons
+of experience working on enterprise financial data system, I move on to a *Software Engineering* role at [Capital One](https://www.capitalone.com/){:target="_blank"}.
 
 During my time at Discover, I was able to pursue a Masters in Data Science and find my passion for [Data Science](https://en.wikipedia.org/wiki/Data_science){:target="_blank"} 
-and [Data Engineering](https://www.springboard.com/library/data-engineering/job-description/){:target="_blank"} thanks to 
-their employee advancement program (which only further cemented my love for [Python](https://www.python.org/about/ "Hail the Almighty Snake!"){:target="_blank"}).
+and [Data Engineering](https://www.springboard.com/library/data-engineering/job-description/){:target="_blank"} thanks to their employee advancement program (which only further cemented 
+my love for [Python](https://www.python.org/about/ "Hail the Almighty Snake!"){:target="_blank"}).
 
-I have since graduated from [Bellevue University](https://www.bellevue.edu/){:target="_blank"} (2021) with a Masters in 
-Data Science and continue to develop my analytical skills through the various projects that I pursue, see sidebar to the left.
+I learned a lot during my time studying at [Bellevue University](https://www.bellevue.edu/){:target="_blank"} for Data Science 
+and I continue to develop my analytical skills through the various projects that I pursue (see sidebar to the left).
 
 I have also continued my learning and engineering advancement of cloud services with [AWS](https://aws.amazon.com/){:target="_blank"} Certifications:
-* [AWS Certified Machine Learning – Specialty](https://www.credly.com/badges/8719d534-6f73-4bc6-92ee-1e7cda4ecb9f/linked_in_profile){:target="_blank"} (2024)
-* [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/71fa38dc-a648-4f29-a775-8e9afb9e544d){:target="_blank"} (2022)
+* [AWS Certified Machine Learning – Specialty](https://www.credly.com/badges/8719d534-6f73-4bc6-92ee-1e7cda4ecb9f/linked_in_profile){:target="_blank"}
+* [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/71fa38dc-a648-4f29-a775-8e9afb9e544d){:target="_blank"}
 
 ### Recent Projects/Contributions:
 * [PyEtrade](https://github.com/jessecooper/pyetrade){:target="_blank"}
   * I did not create this module, but I significantly rewrote and modernized it.
   * Praise from original creator/author: [Jesse Cooper](https://github.com/jessecooper/pyetrade/pull/91#issuecomment-2067101750){:target="_blank"}
 * [MKVAudioSubsDefaulter](https://github.com/Robert-Zacchigna/MKVAudioSubsDefaulter){:target="_blank"}
-  * Simple multi-processing python cli to set the default audio and/or subtitles of a single matroska (.mkv) file or a 
+  * Simple multiprocessing python cli to set the default audio and/or subtitles of a single matroska (.mkv) file or a 
   library of files WITHOUT having to remux the file.
 * [BlackDocPlus](https://github.com/Robert-Zacchigna/BlackDocPlus){:target="_blank"}
   * A modernized version of the [BlackDoc](https://github.com/Robert-Zacchigna/BlackDoc){:target="_blank"} theme: a two-column Jekyll theme for websites that 
