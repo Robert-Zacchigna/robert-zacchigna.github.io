@@ -19,7 +19,7 @@ free to browse around and take a look, there is quite the variety of content to 
 
 I graduated from [Illinois State University](https://illinoisstate.edu/ "Go Redbirds!"){:target="_blank"} and not long after started working as a *Data Engineer* at 
 [Discover Financial Services](https://www.discover.com/company/){:target="_blank"}. Several years later, after gaining tons
-of experience working on enterprise financial data system, I move on to a *Software Engineering* role at [Capital One](https://www.capitalone.com/){:target="_blank"}.
+of experience working on enterprise financial data systems, I moved on to a *Software Engineering* role at [Capital One](https://www.capitalone.com/){:target="_blank"}.
 
 During my time at Discover, I was able to pursue a Masters in Data Science and find my passion for [Data Science](https://en.wikipedia.org/wiki/Data_science){:target="_blank"} 
 and [Data Engineering](https://www.springboard.com/library/data-engineering/job-description/){:target="_blank"} thanks to their employee advancement program (which only further cemented 
@@ -28,7 +28,7 @@ my love for [Python](https://www.python.org/about/ "Hail the Almighty Snake!"){:
 I learned a lot during my time studying at [Bellevue University](https://www.bellevue.edu/){:target="_blank"} for Data Science 
 and I continue to develop my analytical skills through the various projects that I pursue (see sidebar to the left).
 
-I have also continued my learning and engineering advancement of cloud services with [AWS](https://aws.amazon.com/){:target="_blank"} Certifications:
+During my time at Capital One, I also continued my learning and engineering advancement of cloud services with [AWS](https://aws.amazon.com/){:target="_blank"} Certifications:
 * [AWS Certified Machine Learning – Specialty](https://www.credly.com/badges/8719d534-6f73-4bc6-92ee-1e7cda4ecb9f/linked_in_profile){:target="_blank"}
 * [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/71fa38dc-a648-4f29-a775-8e9afb9e544d){:target="_blank"}
 
